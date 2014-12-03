@@ -1,0 +1,22 @@
+{
+  "name": "bigscreen",
+  "version": "0.1.0",
+  "author": {
+    "name": "机智的大熊猫",
+    "email": "winniringy@gmail.com",
+    "url": "http://0326.github.io/"
+  },
+
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-qunit": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-css": "latest"
+  },
+  "scripts": {
+    "test": "grunt travis"
+  }
+}

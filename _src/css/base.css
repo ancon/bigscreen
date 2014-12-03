@@ -1,0 +1,38 @@
+ html,body{
+  height: 100%;width: 100%;
+}
+
+body {
+  font-family: "微软雅黑",Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  position: relative;
+  /*background: url(/static/shikewall/images/bg_wood.jpg) 100%;*/
+  background: url(/static/shikewall/images/bg1.jpg) 100% 100%;
+
+}
+.wrapper{
+  width: 100%;
+  max-width: 1000px;
+  min-width:600px;
+  height: 100%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.3);
+}
+
+/*header*/
+#header{
+  position: relative;
+  height: 150px;overflow: hidden;
+}
+#header .logo{
+  position: absolute;left: 15px;top: 15px;
+  width: 120px;
+}
+#header .qrcode{
+  position: absolute;right: 15px;top:15px;
+  width: 120px;height: 120px;
+}
+#header h1{
+  text-align: center;
+  font-size: 60px;line-height: 150px;
+}
