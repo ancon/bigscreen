@@ -9,7 +9,7 @@ module.exports = function(grunt) {
     },
     //js代码验证
     jshint: {
-      files: ['Gruntfile.js','static/js/*.js'],
+      files: ['Gruntfile.js','static/_src/js/*.js'],
       options: {
         globals: {
           jQuery: true,
@@ -24,11 +24,11 @@ module.exports = function(grunt) {
         separator: '\n\n\n\n'
       },
       concatcss: {
-        src: '_src/css/*.css',
-        dest: 'static/css//<%= pkg.name %>.css'
+        src: 'static/_src/css/*.css',
+        dest: 'static/css/<%= pkg.name %>.css'
       },
       concatjs: {
-        src: '_src/js/*.js',
+        src: 'static/_src/js/*.js',
         dest: 'static/js/<%= pkg.name %>.js'
       }
     },

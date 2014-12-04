@@ -1,0 +1,84 @@
+body {
+  font-family: "微软雅黑",Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  position: relative;
+  /*background: url(/static/shikewall/images/bg_wood.jpg) 100%;*/
+  background: url(/static/images/bg.jpg) no-repeat scroll center 0px #030B22;
+  /*background-attachment: fixed;*/
+}
+.clearfix:after{
+  clear: both;
+  content: "";
+  display: block;
+  height: 0px;
+  visibility: hidden;
+  line-height: 0;
+}
+.bg_christmas_red{
+  background: url(/static/images/bg_christmas_red.jpg) no-repeat scroll center 0px #030B22;
+}
+
+.wrapper{
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.1);
+  color: #fff;
+}
+
+/*template_header*/
+#header,#main,#footerMenu{
+  width: 960px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+#header{
+  height: 120px;
+  margin-bottom: 10px;
+}
+#header .logo{
+  position: absolute;
+  left: 0;top: 50%;
+  margin-top: -26px;
+  width: 210px;height: 52px;
+  
+}
+#title{
+  position: relative;
+  margin-left: 220px;
+}
+#title h1{
+  font-size: 60px;
+}
+#title h2{
+  font-size: 30px;
+}
+#title .qrcode{
+  position: absolute;right: 0;top:0;
+  width: 120px;height: 120px;
+}
+
+#main{
+  height: 540px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+#footerMenu{
+  height: 60px;
+}
+#footerMenu .logo{
+  width: 156px;height: 43px;
+  position: absolute;
+  left: 0;top: 50%;
+  margin-top: -22px;
+}
+#footerMenu #menu{
+  margin-top: 10px;
+  margin-left: 200px;
+}
+#menu li{
+  *display: inline;
+  display: inline-block;
+}

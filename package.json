@@ -8,7 +8,10 @@
   },
 
   "devDependencies": {
+    "express":"4.10.4",
+    "ejs":"latest",
     "grunt": "latest",
+    "grunt-contrib-sass": "latest",
     "grunt-contrib-watch": "latest",
     "grunt-contrib-qunit": "latest",
     "grunt-contrib-concat": "latest",

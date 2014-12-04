@@ -1,0 +1,43 @@
+/*wall.css*/
+#wall li{
+	list-style: none;
+	height: 170px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	background: #fff;
+	color: red;
+	position: relative;
+}
+
+#wall .user-head,#wall .user-content{
+	float: left;
+}
+#wall .user-head{
+	margin-top: 25px;margin-left: 25px;
+}
+#wall .user-head img{
+	width: 120px;height: 120px;
+	border-radius: 50%;
+}
+#wall .user-content{
+	margin: 20px 0 20px 20px;
+}
+#wall .user-content > div{
+	width: 780px;
+}
+#wall .user-content-with-img > div{
+	width: 630px;
+}
+#wall .user-content-with-img .user-content-img{
+	position: absolute;
+	right: 20px;top: 20px;
+	height: 130px;
+	width: 130px;
+}
+#wall h1{
+	font-size: 30px;line-height: 38px;
+}
+#wall span{display: none;}
+#wall p{
+	font-size: 50px;
+}

@@ -1,0 +1,59 @@
+/*btn-icons.css*/
+.btn-icon{
+	*display: inline;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background: url(/static/images/icons.png);
+	text-indent: -9999em;
+	margin-right: 5px;
+}
+
+.btn-func{
+	*display: inline;
+	display:inline-block;
+	width:34px; height:34px;
+	background:url(/static/images/btns.png) no-repeat;
+	text-indent:-9999em;
+	margin-left:10px;
+}
+
+.btn-wifi{ background-position:-40px 0;}
+.btn-shake{ background-position:0 -360px;}
+.btn-style{ background-position:0 -320px;}
+.btn-checkin{ background-position:0 -280px;}
+.btn-tag{ background-position:0 -240px;}
+.btn-vote{ background-position:0 -200px;}
+.btn-pair{ background-position:0 -160px;}
+.btn-lottery{ background-position:0 -120px;}
+.btn-setting{ background-position:0 -80px;}
+.btn-full{ background-position:0 -40px;}
+.btn-old{ background-position:0 0;}
+.btn-prev{ background-position:-50px 0;}
+.btn-begin{ background-position:-198px -40px;}
+.btn-pause{ background-position:-198px 0; opacity:0.8;}
+.btn-next{ background-position:-100px 0; opacity:0.8;}
+.btn-new{ background-position:-150px 0;}
+.btn-shake:hover{ background-position:-40px -360px;}
+.btn-style:hover{ background-position:-40px -320px;}
+.btn-checkin:hover{ background-position:-40px -280px;}
+.btn-tag:hover{ background-position:-40px -240px;}
+.btn-vote:hover{ background-position:-40px -200px;}
+.btn-pair:hover{ background-position:-40px -160px;}
+.btn-lottery:hover{ background-position:-40px -120px;}
+.btn-setting:hover{ background-position:-40px -80px;}
+.btn-full:hover{ background-position:-40px -40px;}
+.btn-old:hover{ background-position:0 -40px;}
+.btn-prev:hover{ background-position:-50px -40px;}
+.btn-begin:hover{ opacity:1;}
+.btn-pause:hover{ opacity:1;}
+.btn-next:hover{ background-position:-100px -40px;}
+.btn-new:hover{ background-position:-150px -40px;}
+.btn-wifi-disable{ background-position:0 0;}
+.btn-shake-disable,.btn-shake-disable:hover{ background-position:-80px -360px;}
+.btn-style-disable,.btn-style-disable:hover{ background-position:-80px -320px;}
+.btn-checkin-disable,.btn-checkin-disable:hover{ background-position:-80px -280px;}
+.btn-tag-disable,.btn-tag-disable:hover{ background-position:-80px -240px;}
+.btn-vote-disable,.btn-vote-disable:hover{ background-position:-80px -200px;}
+.btn-pair-disable,.btn-pair-disable:hover{ background-position:-80px -160px;}
+.btn-lottery-disable,.btn-lottery-disable:hover{ background-position:-80px -120px;}
