@@ -18,7 +18,7 @@
 	margin-left:10px;
 }
 
-.btn-wifi{ background-position:-40px 0;}
+.btn-home{ background-position:0 0;}
 .btn-shake{ background-position:0 -360px;}
 .btn-style{ background-position:0 -320px;}
 .btn-checkin{ background-position:0 -280px;}
@@ -49,7 +49,8 @@
 .btn-pause:hover{ opacity:1;}
 .btn-next:hover{ background-position:-100px -40px;}
 .btn-new:hover{ background-position:-150px -40px;}
-.btn-wifi-disable{ background-position:0 0;}
+
+.btn-home:hover{ background-position:-40px 0;}
 .btn-shake-disable,.btn-shake-disable:hover{ background-position:-80px -360px;}
 .btn-style-disable,.btn-style-disable:hover{ background-position:-80px -320px;}
 .btn-checkin-disable,.btn-checkin-disable:hover{ background-position:-80px -280px;}

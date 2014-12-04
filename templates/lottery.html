@@ -1,6 +1,31 @@
 <% include template_header.html %>
-<div id="lottery">
-  <h1>这里是home页面</h1>
+<div id="lottery" class="clearfix">
+  <div id="lottery-main">
+  	<div class="title">
+  		<h1>现场抽奖</h1>
+  	</div>
+  	<div  class="container">
+  		user
+  	</div>
+  	<div class="action">
+  		<a href="" class="lotteryBtn lotteryBtn-start">开始抽奖</a>
+  	</div>
+  </div>
+  <div id="lottery-prize">
+  	<div class="title">
+  		<h1>获奖名单</h1>
+
+  	</div>
+  	<ul id="lottery-list">
+  		<% for(var i=0;i<20;i++) { %>  
+  		<li>
+  			<img src="/static/images/userimg.jpg" class="user-head">
+  			<p class="user-name">机智的大熊猫</p>
+  		</li>
+  		<% } %>
+  	</ul>
+  </div>
+
 </div>
 
 <% include template_footer.html %>

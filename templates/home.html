@@ -1,6 +1,13 @@
 <% include template_header.html %>
 <div id="home">
-  <h1>这里是home页面</h1>
+  <ul>
+  	<% for(var i=0;i<2;i++){%>
+  	<li class="bg_blue"><a href="/wall">互动墙</a></li>
+  	<li class="bg_red"><a href="/lottery">抽奖</a></li>
+  	<li class="bg_orange"><a href="/checkin">签到</a></li>
+  	<li class="bg_green"><a href="/wall">更多</a></li>
+  	<%}%>
+  </ul>
 </div>
 
 <% include template_footer.html %>

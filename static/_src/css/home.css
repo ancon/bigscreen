@@ -1,4 +1,35 @@
 /*home.css*/
+.bg_blue{background: #44cef6;}
+.bg_blue:hover{background: #34aed6;}
+
+.bg_red{background: #ff4777;}
+.bg_red:hover{background: #ef2757;}
+
+.bg_green{background:#0eb83a;}
+.bg_green:hover{background:#0e981a;}
+
+.bg_orange{background: #ffb61e;}
+.bg_orange:hover{background: #dfa60e;}
+
+
+
 #home{
-	
+	height: 540px;
+	overflow-y:scroll;
+}
+#home li{
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+	width: 160px;height: 160px;
+	margin: 12px;
+	position: relative;
+	box-shadow: 0px 5px 6px rgba(102, 102, 102, 0.5) inset,
+			 0px 2px 6px rgba(0, 0, 0, 0.4);
+}
+#home li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+	line-height: 160px;
 }

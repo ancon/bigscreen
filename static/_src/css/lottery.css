@@ -1,0 +1,90 @@
+/*lottery.css*/
+#lottery-main,#lottery-prize{
+	float: left;
+}
+#lottery-main{
+	width: 560px;
+	height: 500px;
+	box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.4) inset,
+			 0px 0px 5px rgba(0, 0, 0, 0.4);
+	position: relative;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	background: -moz-linear-gradient(235deg, rgba(255, 255, 255, 0.1) 60%, 
+		rgba(255, 255, 255, 0) 60%) repeat scroll 0% 0% transparent;	
+}
+#lottery-main .title{
+	height: 75px;
+	margin: 5px 10px 0 10px;
+}
+#lottery-main .title h1{
+	font-size: 30px;
+}
+#lottery-main .container{
+	height: 320px;
+	padding: 10px;
+	background: rgba(0,0,0,0.1);
+}
+#lottery-main .action{
+	padding: 10px;
+}
+.lotteryBtn{
+	color: #fff;
+	font-size: 26px;
+	display: inline-block;
+	width: 253px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+.lotteryBtn-start{
+	border-width: 1px;
+	border-style: solid;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	border-color: #C51313 #AD0202 #901010;
+	box-shadow: 1px 1px 1px #EAB6B6 inset;
+	border-radius: 5px;
+	background: -moz-linear-gradient(center top , #D70202, #9E0404) repeat scroll 0% 0% transparent;
+}
+.lotteryBtn-start:hover{
+	background: -moz-linear-gradient(center top , #e71212, #aE1414) repeat scroll 0% 0% transparent;
+}
+
+#lottery-prize{
+	color: #666;
+	width: 360px;
+	height: 500px;
+	padding: 10px 0 10px 10px;
+	margin-left: 27px;
+	background: none repeat scroll 0% 0% #FFF;
+	position: relative;
+	box-shadow: 0px 5px 6px rgba(102, 102, 102, 0.5) inset, 0px 2px 6px rgba(0, 0, 0, 0.4);
+}
+#lottery-prize .title{
+	height: 60px;
+	margin-bottom: 10px;
+}
+#lottery-prize h1{
+	font-size: 30px;
+}
+#lottery-list{
+	height: 420px;
+	overflow-y:scroll;
+}
+#lottery-list li{
+	height: 50px;
+	margin-bottom: 2px;
+	border-bottom: 1px solid #ddd;
+}
+#lottery-list .user-head{
+	height: 50px;width: 50px;
+}
+#lottery-list .user-name{
+	font-size: 30px;
+	line-height: 50px;
+	margin-left: 55px;
+}

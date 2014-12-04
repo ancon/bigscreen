@@ -20,7 +20,9 @@ app.get('/wall',function(req,res){
 app.get('/lottery',function(req,res){
 	res.render('lottery.html',{})
 })
-
+app.get('/checkin',function(req,res){
+	res.render('checkin.html',{})
+})
 
 
 
